@@ -1,22 +1,32 @@
-head{
+header {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding: 10px 20px;
+     background-color:  #8B0000;;
 
-
+}
+.menu {
+    text-align: center !important;
+    
 }
 
 
-body{
-
-
-
+a{
+    text-decoration:none;
+    color:#ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px; ;
+    padding: 5px;
+    height: 100%;
+    margin: 0px;
 }
 
-header{
+
+footer {
     background-color: #8B0000;
     color: white;
-    text-align: center;
-    
-
-logo{
-    position: fixed;
-    text-align: left;
-}
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+}    
